@@ -117,7 +117,7 @@
 /* mobile or only mobile */
 @media (max-width: 767px) {
   .section-padding {
-    padding: 60px 0;
+    padding: 60px 0 0 0;
   }
   .section-title {
     font-size: 22px;
@@ -135,6 +135,7 @@
   .img-fluid2{
     height: auto;
   }
+  
   
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
@@ -194,7 +195,7 @@
     border-radius: 65px;
     top: -45px;
   }
-  .row{
+  .row1{
     flex-direction: column-reverse;
   }
   .feature-thumb {
