@@ -344,9 +344,6 @@ hr {
 /* ==========================================================================
   8. Features Section Style
    ========================================================================== */
-#features {
-  background: #fff;
-}
 
 #features .icon {
   display: inline-block;
@@ -431,7 +428,7 @@ hr {
 }
 
 #features .show-box img {
-  width: 120%;
+  width: 100%;
 
 }
 
@@ -1326,6 +1323,10 @@ textarea {
   position: relative;
   top: 50px;
   left: 23px;
+}
+
+.img-fluid2{
+  height: 60vh;
 }
 
 .text-animation{

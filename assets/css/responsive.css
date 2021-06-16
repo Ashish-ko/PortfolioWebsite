@@ -47,6 +47,9 @@
   .img-fluid1{
     display: none;
   }
+  .img-fluid2{
+    display: none;
+  }
   #hero-area{
     background-image: url('../img/image5.png');
     background-size: cover;
@@ -128,8 +131,10 @@
   }
   #hero-area .container {
     margin-top: 100px;
-}
-
+  }
+  .img-fluid2{
+    height: auto;
+  }
   
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
@@ -160,12 +165,12 @@
  
 
   #hero-area .contents .head-title {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 36px;
     margin-bottom: 15px;
   }
   #hero-area .contents p {
-    font-size: 14px;
+    font-size: 16px;
   }
   #hero-area {
     padding: 120px 0 80px;
@@ -182,6 +187,15 @@
   }
   .about-area img {
     margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    left: 25vw;
+    position: relative;
+    border-radius: 65px;
+    top: -45px;
+  }
+  .row{
+    flex-direction: column-reverse;
   }
   .feature-thumb {
     padding: 10px;
