@@ -108,3 +108,24 @@
 
 
 /* Code Added by Ashish */
+$(document).ready(function(){
+  var dynamicText = ['Web Developer', 'Web Designer', 'Graphics Designer', 'Digital Marketer'];
+  var index = 0;
+  
+  $.fn.appendTextToDiv = function(){
+    if (index == dynamicText.length) {
+      index = 0;
+
+    }
+    $(".dynamic-text h6").text(dynamicText[index]);
+    index++;
+
+    setTimeout(function(){
+      $.fn.appendTextToDiv();
+    }, 2500);
+
+  }
+
+  $.fn.appendTextToDiv();
+
+})

@@ -2742,3 +2742,34 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
+
+
+
+/* Animation Added by Ashish */
+
+.color_animation{
+  animation: color 4s infinite;
+  animation-delay: 5s;
+}
+
+@keyframes color{
+  0%{
+    color: #227763;
+  }
+  20%{
+    color: #23b593;
+  }
+  40%{
+    color: #00ffc3;
+  }
+  60%{
+    color: #cf219a;
+  }
+  80%{
+    color: #a0102a;
+  }
+  100%{
+    color: #bd0811;
+  }
+
+}

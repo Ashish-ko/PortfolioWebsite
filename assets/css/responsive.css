@@ -1,10 +1,19 @@
 /* only small desktops */
+@media (min-width: 1199px){
+  .typing-demo1{
+    display: none;
+  }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   #hero-area .contents .head-title {
     font-size: 40px;
   }
-
-
+  .text-content{
+    display: none;
+  }
+  .typing-demo1 h6{
+    color: #009688;
+  }
   .services-item .services-content h3 a {
     font-size: 14px;
   }
@@ -34,6 +43,13 @@
   #pricing-table .title h3 {
     font-size: 14px;
   }
+
+  .text-content{
+    display: none;
+  }
+  .typing-demo1 h6{
+    color: #009688;
+  }
 }
 
 /* only small tablets */
@@ -54,7 +70,12 @@
     background-image: url('../img/image5.png');
     background-size: cover;
   }
-
+  .text-content{
+    display: none;
+  }
+  .typing-demo1 h6{
+    color: #009688;
+  }
 
 
   .services-item .services-content h3 a {
@@ -135,7 +156,15 @@
   .img-fluid2{
     height: auto;
   }
-  
+  #features .show-box img {
+    top: 0px;
+}
+.text-content{
+  display: none;
+}
+.typing-demo1 h6{
+  color: #009688;
+}
   
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {

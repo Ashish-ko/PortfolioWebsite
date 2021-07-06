@@ -429,7 +429,8 @@ hr {
 
 #features .show-box img {
   width: 100%;
-
+  top: 100px;
+  position: relative;
 }
 
 /* Services Item */
@@ -535,6 +536,12 @@ hr {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  color: #23b593;
+  font-weight: 900;
+  font-size: x-large;
+}
+.navbar-brand:hover{
+  color: red;
 }
 
 .top-nav-collapse {
@@ -1348,4 +1355,50 @@ textarea {
 }
 .content p{
   color: #000000;
+}
+
+
+.text-content{
+  display: flex;
+  width: 116%;
+}
+.static-text{
+  padding-right: 10px;
+}
+.dynamic-text h6{
+  color: rgb(255 0 165);
+}
+/*.text-content h6{
+  text-shadow: 0px 0px 10px #00b3ff,
+  0px 0px 20px #00b3ff,
+  0px 0px 40px #00b3ff,
+  0px 0px 80px #00b3ff,
+  0px 0px 100px #00b3ff;
+} */
+.slide-box{
+  position: absolute;
+    height: 15%;
+    width: 120%;
+    background-color: #000000;
+    top: 100px;
+    left: 150px;
+    animation: slider 2.5s infinite ease;
+}
+.slide-pipe{
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: cornflowerblue;
+}
+@keyframes slider{
+  0%{
+      left: 25%;
+  }
+  75%{
+    left: 100%;
+  }
+  100%{
+    left: 25%;
+  }
 }
